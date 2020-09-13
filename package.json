@@ -1,0 +1,11 @@
+{
+  "name": "poi-demo",
+  "private": true,
+  "scripts": {
+		"build": "rimraf dist && tsc && poi --prod --config config/build.js",
+		"dev": "poi --serve --config config/dev.js"
+	},
+  "devDependencies": {
+    "poi": "^12.4.2"
+  }
+}
